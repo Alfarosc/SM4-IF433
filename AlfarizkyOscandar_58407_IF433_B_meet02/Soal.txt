@@ -1,0 +1,16 @@
+1. Buatlah sebuah program yang menerima sebuah input string dan mengembalikan output “Palindrome” jika saat string tersebut dibalik, string tetap sama dan mengembalikan output “Bukan Palindrome” jika string bukan palindrome!
+
+Contoh:
+Input: “kasur rusak” => Output: “palindrome”
+Input: “budi wati” => Output: “bukan palindrome”
+Input: “katak” => Output: “palindrome”
+Input: “kodok ini kodok” => Output: “palindrome”
+Input: “bukan kodok” => Output: “bukan palindrome”
+
+
+2. Armstrong number/ Narcissistic number adalah sebuah bilangan dengan panjang n, yang saat setiap digitnya dipangkatkan dengan n akan mengembalikan bilangan itu sendiri. Buatlah program untuk mengecek apakah sebuah bilangan merupakan sebuah Armstrong number! Program akan mengembalikan “Armstrong Number” jika ya dan “Bukan Armstrong Number” jika bukan.
+
+Contoh:
+153, n = 3, 153 = 1^3 + 5^3 + 3^3; “Armstrong Number”
+1634, n = 4, 1634 = 1^4 + 6^4 + 3^4 + 4^4; “Armstrong Number”
+100, n = 3, 100 != 1^3 + 0^3 + 0^3; “Bukan Armstrong Number”
