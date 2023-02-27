@@ -1,0 +1,38 @@
+(IF433-BL) Object Oriented Programming
+Mohammad Alfarizky Ramadhani Oscandar (58407)
+
+1. Jelaskan multidimensional arrays dan berikan contoh.
+Multidimensional Array merupakan array yang berisikan satu atau lebih array di dalamnya. Dapat dikatakan bahwa array multidimensional merupakan array dari suatu array.
+Contoh:
+Berikut merupakan contoh Array 2 Dimensi.
+int[][] angka = {
+			{1,5,8,3},
+			{2,4,9,7}
+			}
+Indeks pada dimensi ke-1 memiliki 2 indeks yang menunjuk ke dalam indeks pada dimensi ke-2 yang pada masing-masing indeksnya memiliki sebanyak 4 indeks.
+
+Indeks i[0][n] = {1,5,8,3}
+Indeks i[1][n] = {2,4,9,7}
+
+2. Sebutkan dan jelaskan 13 method-method string dalam Java 
+    1. charAt() merupakan sebuah metode pada string dalam java yang membutuhkan 1 argumen di dalam fungsinya. metode ini berguna untuk mengambil 1 huruf/angka/simbol(char) pada string yang telah dibuat.
+    2. concat() merupakan metode yang berfungsi untuk menyambungkan string yang diinput oleh pangguna. metode ini bisa berisi 1 kata atau lebih. 
+    3. replace() merupakan metode yang menambahkan argumen untuk mengganti argumen dengan kata yang diinginkan
+    4. split () merupakan metode untuk membegi sebuah seting menjadi array
+    5. substring() merupakan metode untuk membagi 2 argumen yang aman argumen pertama menjadi index awal dan argumen kedua jadi index akhir
+    6. toLowerCase() merupakan metode untuk membuat sebuah string menjadi huruf kecil 
+    7. toUpperCase() merupakan metode untuk membuat string menjadi huruf besar atau kapital
+    8. length () merupakan sebuah metode untuk mengetahui berapa banyak karakter yang terdapat pada argumen yang diinput
+    9. substring(m,n) merupakan metode untuk mengambil beberapa bagian potong karakter dari isi string yang memiliki 2 parameter index_awal dan index_akhir sebagai batasan index yang akan diambil.
+    10. contains () merupakan sebuah metode untuk mencari elemen string yang telah diinput untuk mengetahui apakah ada dalam string tersebut. Hasil yang diperoleh dari metode ini yaitu True dan False.
+    11. isEmpty() merupakan sebuah metode yang melakukan pemeriksaan untuk mengetahui apakah string terdapat isi
+    12. indexOf() merupakan metode untuk mengetahui nilai dari index suatu karakter yang ada di string
+    13. format() merupakan metode untuk mengembalikan nilai string yang sudah terformat
+
+3. Sebutkan 2 keuntungan Immutability dalam Java.
+Immutability merupakan objek yang dibuat sekali dan tidak bisa diubah, objek ini memiliki sifat yang aman, sehingga beberapa referensi akan mengacu pada object yang sama dengan nilai yang tetap tanpa khawatir akan terjadi perubahan nilai.
+
+Keuntungan Immutability
+    1. tidak mengubah keadaan, karena tidak dapat rusak oleh gangguan thread atau diamati dalam keadaan yang tidak konsisten
+    2. Immutability dapat melakukan multithreading dan string tunggal dapat di bagikan dengan jumlah banyak. Hal ini untuk menghindari  penggunaan untuk keamanan thread safe.
+    3. Adanya string immutability terdapat hashnya di cache saat membuat dan tidak perlu dihitung kembali. hal tersebut menjadikan pilihan yang andal untuk key di dalam map dengan pemrosesan berlangsung lebih cepat  jika dibandingkan dengan key objek.

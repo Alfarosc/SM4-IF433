@@ -1,0 +1,14 @@
+Tugas1
+Buatlah sebuah program Java yang memiliki sebuah array float dengan nama "tinggi_badan" dengan panjang 10, inisialisasi elemen dari tinggi_badan secara acak mulai dari 145 s.d. 180. Kemudian, buatlah variabel rata_rata (float) yang berisikan rata-rata dari tinggi badan dan variabel std_dev (float) yang berisikan nilai standar deviasi dari list "tinggi_badan"
+
+Tugas2
+Buatlah sebuah array float dua dimensi untuk menyimpan 5 buah data yang masing-masing memiliki 3 macam attribute. Berikut merupakan nilai masing-masing attribute untuk setiap data: 
+1.(15,10,1)
+2.(-10,15,2)
+3.(10,-10,1)
+4.(-15,-5,3)
+5.(-5,5,2)
+Kemudian, tambahkan program agar menerima input berupa 2 buah bilang cacah (float) dari pengguna. Untuk setiap input pengguna, Input pertama merupakan merepresentasikan attribute ke-1 dan input ke-2 merepresentasikan attribute ke-2 dari data. Dengan menghitung jarak dari data yang baru diinput oleh pengguna ke masing-masing data di dalam array, tentukan attribute ke-3 dari data yang baru!
+
+Tugas3
+Buatlah sebuah multidimensional array integer berukuran 3x3 bernama sudoku. Inisialisasikan setiap elemen dari array dengan sebuah integer dari angka 1-3 (both inclusive). Untuk setiap baris dan kolom, jika tidak terdapat elemen yang sama tuliskan setiap baris dan kolom dari array dan diikuti dengan  kata "Sudoku". Jika ya, anda hanya perlu menuliskan setiap baris dan kolom dari array.
